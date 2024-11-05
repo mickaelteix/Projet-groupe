@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Dog's</title>
+    <link rel="stylesheet" href="formulaire.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dynapuff&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="Accueil.html" class="logo">
+            <img class="logo" src="./Images/logo.png" alt="Logo du site">
+        </a>
+        <ul class="nav-links">
+            <li><a href="./page_belebuth.html">Date Dog</a></li>
+            <li><a href="./formulaire.html">Sign up</a></li>
+        </ul>
+    </nav>
+    <div class="mobile">
+        <div class="flex">
+            <img class="sandwich" src="./Images/sandwich.png" alt="chien">
+            <img class="logo-mobile" src="./Images/logo-removebg-preview.png" alt="">
+            <img class="msg" src="./Images/message.png" alt="message">
+        </div>
+    </div>
+    <main>
+        <form action="">
+            <div class="humain">
+                <h2>Pour la maitresse ou le maitre</h2>
+                <div class="yes">
+                    <label for="tu-es">Tu es :</label>
+                    <input type="radio" name="tu-es" id="tu-es">Homme
+                    &nbsp;&nbsp;
+                    <input type="radio" name="tu-es">Femme
+                </div>
+                <br><br>
+                <div class="oui">
+                    <div class="one">
+                        <label for="text">Prenom/Nom :</label>
+                        <input type="text" name="text" id="text">
+
+                        <label for="ville">Ville :</label>
+                        <input type="text" name="ville" id="ville">
+                    </div>
+                    <br>
+                    <div class="two">
+                        <label for="email">Adresse Mail :</label>
+                        <input type="email" name="email" id="email">
+
+                        <label for="password">Mot de passe :</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                </div>
+            </div>
+            <div class="animal">
+                <h2>Pour la chienne ou le chien</h2>
+                <label for="iel-est">elle/il est :</label>
+                <input type="radio" name="iel-est" id="iel-est">Male
+                &nbsp;&nbsp;
+                <input type="radio" name="iel-est">Femelle
+                <br><br>
+                <label for="pour">pour une balade :</label>
+                <input type="radio" name="pour" id="pour">Nocturne
+                &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="pour">en Journée
+                &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="pour">mixte
+                <br><br>
+                <div class="non">
+                    <div class="three">
+                        <label for="text">Prenom :</label>
+                        <input type="text" name="text">
+
+                        <label for="text">race :</label>
+                        <input type="text" name="text">
+                    </div>
+                    <br>
+                    <div class="four">
+                        <label for="photo">Photographie :</label>
+                        <input type="file" accept="image/*" name="photo" id="photo">
+
+                        <label for="description">description :</label>
+                        <textarea name="description" id="description">
+                    </textarea>
+                    </div>
+
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="top-section">
+            <div class="social-media">
+                <p>Suivez-nous</p>
+                <div class="icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+            <div class="links">
+                <a href="#">Utilisation des cookies</a>
+                <a href="#">Mentions légales</a>
+                <a href="#">CGV</a>
+            </div>
+        </div>
+        <div class="credits">
+            <p>© Hot Dog's 2024 Site réalisé par Studio MBF</p>
+        </div>
+    </footer>
+</body>
+
+</html>

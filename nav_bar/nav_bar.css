@@ -1,0 +1,167 @@
+.logo img {
+  display: block;
+  height: 40px;
+  width: 40px;
+  margin-left: 15px;
+  margin-top: 10px;
+  border-radius: 50%;
+  border: solid 1px black;
+}
+
+nav {
+  width: 100%;
+  height: 7%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.04);
+  color: #fff;
+}
+
+.nav-links {
+  display: flex;
+  margin: auto;
+  gap: 17rem;
+}
+
+.nav-links li a {
+  font-family: "DynaPuff", system-ui;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 2px 25px;
+  box-shadow: inset 0px 0px 5px rgba(255, 255, 0, 1);
+  border-radius: 10px;
+  border: solid 3px #ffff00;
+  background-color: black;
+  color: #ffff00;
+  text-decoration: none;
+  font-size: 18px;
+}
+.mobile {
+  display: none;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.sandwich {
+  width: 60px;
+  height: auto;
+  border-radius: 55%;
+}
+.logo-mobile {
+  width: 80px;
+  height: auto;
+}
+.msg {
+  width: 40px;
+  height: auto;
+}
+
+/* Parti Pied de page */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.389); /* Remplace avec tes couleurs */
+  color: #000; /* Couleur du texte */
+}
+
+.top-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: end;
+  gap: 400px;
+  width: 100%;
+  max-width: 100vw;
+  margin-bottom: 15px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-media p {
+  font-family: "dynapuff", cursive;
+  font-size: 16px;
+}
+
+.icons {
+  display: flex;
+  gap: 30px;
+}
+
+/* Styles pour les icônes */
+.icons i {
+  display: flex;
+  margin-top: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  align-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+  font-family: "dynapuff", cursive;
+  font-size: 20px;
+}
+
+.credits {
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.credits p {
+  font-family: "Merriweather", serif;
+}
+
+@media (max-width: 768px) {
+  nav {
+    width: 100%;
+    height: 7%;
+    display: none;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.04);
+    color: #fff;
+  }
+
+  .mobile {
+    display: block;
+  }
+  .top-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Réduction de l'espacement sur les tablettes */
+  }
+
+  .links {
+    flex-direction: row;
+    gap: 15px; /* Les liens apparaissent côte à côte sur tablette */
+  }
+}
+
+/* Media query pour petits écrans (si nécessaire) */
+@media (max-width: 425px) {
+  .top-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .links {
+    flex-direction: column; /* Les liens redeviennent en colonne sur les petits écrans */
+  }
+}
